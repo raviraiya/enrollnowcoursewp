@@ -1,0 +1,48 @@
+.courselist{
+    display: block;
+    width: 100%;
+    clear: both;
+    position: relative;
+}
+.singlecourse{
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0px 1px 4px 0px #00000070;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.singlecourse div{
+    display: block;
+    width: 100%;
+}
+.singlecourse h3 span{
+    font-size: 1.7rem;
+}
+.time{
+    float: left;   
+}
+.seats{   
+    float: right;
+}
+.clear{clear: both;}
+.time span, .seats span{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.bookbtn{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    background: #0056b3;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+.bookbtn:hover{
+    background: #056ad6;
+}
+a.greylink{
+    background: #585858;
+}
